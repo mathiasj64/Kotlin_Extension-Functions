@@ -6,12 +6,14 @@ In the following example we used extension functions to extends the String class
 
 Normally we would do something like this without the use of extension functions:
 
+```kotlin
+
 convertSpacesToUnderscores("Hello class!")
 
 fun convertSpacesToUnderscores(str: String): String {
  return str.replaceAll(" ", "_")
 }
-
+```
 As the example shows we can now use the new function on any given String.
 
 ```kotlin
