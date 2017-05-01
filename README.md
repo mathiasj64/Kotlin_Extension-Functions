@@ -12,7 +12,7 @@ fun convertSpacesToUnderscores(str: String): String {
  return str.replaceAll(" ", "_")
 }
 
-convertSpacesToUnderscores("Hello_Class!_How_are_you?")
+println(convertSpacesToUnderscores("Hello_Class!_How_are_you?"))
 
 //prints: Hello_Class!_How_are_you?
 ```
