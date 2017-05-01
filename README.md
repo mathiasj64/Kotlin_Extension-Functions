@@ -11,4 +11,6 @@ fun String.convertSpacesToUnderscores(): String {
 }
 
 println("Hello Class! How are you?".convertSpacesToUnderscores())
+
+//prints: Hello_Class!_How_are_you?
 ```
