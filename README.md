@@ -32,3 +32,7 @@ println("Hello Class! How are you?".convertSpacesToUnderscores())
 ## Scope
 
 The extension function example given above can also have effect on other classes if you like in Java import the package: package org.defaultname.samples
+
+## Why and when to use it?
+
+Give ideelle eksempler og sammenlign med java
