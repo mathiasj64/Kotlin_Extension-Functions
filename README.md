@@ -1,6 +1,6 @@
 # Kotlin_Extension-Functions
 
-Extension functions can as the name indicates extends a class with a function.
+Extension functions can as the name indicates extend a class with a function.
 In the following example we used extension functions to extends the String class with a new method ConvertSpacesToUnderscores().
 As the example shows we can now use the new function on any given String.
 
