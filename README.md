@@ -16,7 +16,7 @@ convertSpacesToUnderscores("Hello class!")
 
 //prints: Hello_Class!_How_are_you?
 ```
-As the example shows we can now use the new function on any given String.
+Now with a class extended with a function instead:
 
 ```kotlin
 
