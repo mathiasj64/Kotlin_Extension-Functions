@@ -35,12 +35,15 @@ Similarly to functions, Kotlin also supports extensions on properties
 The example below shows an extension property
 
 ```
+class Person(val name: String, var age: Int)
+
 val Person.dogAge : Int
   get() = this.age * 7
 
 fun main(args: Array<String>)
 {
-    println(21.dogAge)
+    val kurt = Person("Kurt", 21)
+    println(kurt.dogAge)
 }
 
 // Prints 147
