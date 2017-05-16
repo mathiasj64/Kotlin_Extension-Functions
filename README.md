@@ -34,7 +34,7 @@ println("Hello Class! How are you?".convertSpacesToUnderscores())
 Similarly to functions, Kotlin also supports extensions on properties
 The example below shows an extension property
 
-```
+```kotlin
 class Person(val name: String, var age: Int)
 
 val Person.dogAge : Int
